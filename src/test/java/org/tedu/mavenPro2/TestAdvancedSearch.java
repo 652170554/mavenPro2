@@ -1,0 +1,55 @@
+package org.tedu.mavenPro2;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxProfile;
+import org.testng.annotations.Test;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.DataProvider;
+import static org.testng.Assert.*;
+
+
+public class TestAdvancedSearch {
+  WebDriver driver;	
+  AdvancedSearchPage asp;
+  SearchResultPage srp;
+  @Test(dataProvider = "dp")
+  public void f(
+		String kw,//关键字
+  		String cg,//分类
+  		String bd,//品牌
+  		String minp,//最小价格
+  		String maxp,//最大价格
+  		String ext,//扩展项
+  		String dt,//上市日期
+  		String cl,//颜色
+  		String expCount//预期结果个数
+  		) {
+	  asp.get();
+	  srp = asp.advancedSearch(kw, cg, bd, minp, maxp, ext, dt, cl);
+	  String actCount = srp.getCount();
+	  assertEquals(actCount,expCount);
+	  
+  }
+
+  @BeforeMethod
+  public void beforeMethod() {
+		FirefoxProfile profile = new FirefoxProfile();
+		profile.setPreference("dom.ipc.plugins.enabled", false);
+		driver = new FirefoxDriver(profile);
+		driver.manage().window().maximize();
+		asp = new AdvancedSearchPage(driver);
+  }
+
+  @AfterMethod
+  public void afterMethod() {
+	  driver.quit();
+  }
+
+  @DataProvider
+  public Object[][] dp() {
+    return ReadFile.getTestDataFromExcel("D:\\lhf\\技术资料\\selenium", "selenium高级搜素ECshop.xlsx", "Sheet1");
+  }
+
+}

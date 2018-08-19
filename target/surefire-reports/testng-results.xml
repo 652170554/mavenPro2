@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="68" started-at="2018-07-16T07:30:02Z" finished-at="2018-07-16T07:30:02Z">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="68" started-at="2018-07-16T07:30:02Z" finished-at="2018-07-16T07:30:02Z">
+      <class name="org.tedu.mavenPro2.CopyOfApp1Test1">
+        <test-method status="PASS" signature="testa()[pri:0, instance:testa(org.tedu.mavenPro2.CopyOfApp1Test1)]" name="testa" duration-ms="2" started-at="2018-07-16T15:30:02Z" finished-at="2018-07-16T15:30:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testa -->
+      </class> <!-- org.tedu.mavenPro2.CopyOfApp1Test1 -->
+      <class name="org.tedu.mavenPro2.CopyOfAppTest111">
+        <test-method status="PASS" signature="shouldAnswerWithTrue()[pri:0, instance:shouldAnswerWithTrue(org.tedu.mavenPro2.CopyOfAppTest111)]" name="shouldAnswerWithTrue" duration-ms="9" started-at="2018-07-16T15:30:02Z" finished-at="2018-07-16T15:30:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldAnswerWithTrue -->
+      </class> <!-- org.tedu.mavenPro2.CopyOfAppTest111 -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

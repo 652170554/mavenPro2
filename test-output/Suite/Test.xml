@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test" failures="0" tests="2" time="0.026" errors="0">
+  <properties/>
+  <testcase name="f" time="0.008" classname="org.tedu.mavenPro2.NewTest"/>
+  <testcase name="f" time="0.002" classname="org.tedu.mavenPro2.NewTest1"/>
+</testsuite>

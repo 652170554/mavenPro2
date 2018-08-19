@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="9" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="70974" started-at="2018-07-28T09:31:31Z" finished-at="2018-07-28T09:32:42Z">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="70974" started-at="2018-07-28T09:31:31Z" finished-at="2018-07-28T09:32:42Z">
+      <class name="ECshop.TestECshopSearch">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:ECshop.TestECshopSearch@6ea12c19]" name="beforeMethod" is-config="true" duration-ms="3855" started-at="2018-07-28T17:31:55Z" finished-at="2018-07-28T17:31:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="f()[pri:0, instance:ECshop.TestECshopSearch@6ea12c19]" name="f" duration-ms="9937" started-at="2018-07-28T17:31:59Z" finished-at="2018-07-28T17:32:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:ECshop.TestECshopSearch@6ea12c19]" name="afterMethod" is-config="true" duration-ms="2457" started-at="2018-07-28T17:32:09Z" finished-at="2018-07-28T17:32:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- ECshop.TestECshopSearch -->
+      <class name="csv.TestAdvancedSearch">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:csv.TestAdvancedSearch@7ca48474]" name="beforeMethod" is-config="true" duration-ms="5832" started-at="2018-07-28T17:31:31Z" finished-at="2018-07-28T17:31:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:csv.TestAdvancedSearch@7ca48474]" name="f" duration-ms="2895" started-at="2018-07-28T17:31:36Z" data-provider="dp" finished-at="2018-07-28T17:31:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[b]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[手机类型]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[三星]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[6000]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[请选择]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:csv.TestAdvancedSearch@7ca48474]" name="afterMethod" is-config="true" duration-ms="366" started-at="2018-07-28T17:31:39Z" finished-at="2018-07-28T17:31:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:csv.TestAdvancedSearch@7ca48474]" name="beforeMethod" is-config="true" duration-ms="3882" started-at="2018-07-28T17:31:40Z" finished-at="2018-07-28T17:31:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:csv.TestAdvancedSearch@7ca48474]" name="f" duration-ms="3675" started-at="2018-07-28T17:31:44Z" data-provider="dp" finished-at="2018-07-28T17:31:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[n]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[手机类型]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[联想]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[100]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2000]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[精品手机]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[2008年06月]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[灰色]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:csv.TestAdvancedSearch@7ca48474]" name="afterMethod" is-config="true" duration-ms="402" started-at="2018-07-28T17:31:47Z" finished-at="2018-07-28T17:31:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:csv.TestAdvancedSearch@7ca48474]" name="beforeMethod" is-config="true" duration-ms="4025" started-at="2018-07-28T17:31:48Z" finished-at="2018-07-28T17:31:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:csv.TestAdvancedSearch@7ca48474]" name="f" duration-ms="2644" started-at="2018-07-28T17:31:52Z" data-provider="dp" finished-at="2018-07-28T17:31:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[t]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[充值卡]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[LG]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[50]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[500]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[请选择]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:csv.TestAdvancedSearch@7ca48474]" name="afterMethod" is-config="true" duration-ms="377" started-at="2018-07-28T17:31:54Z" finished-at="2018-07-28T17:31:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- csv.TestAdvancedSearch -->
+      <class name="org.tedu.mavenPro2.NewTest">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.tedu.mavenPro2.NewTest@2344fc66]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-07-28T17:32:11Z" finished-at="2018-07-28T17:32:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:org.tedu.mavenPro2.NewTest@2344fc66]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-07-28T17:32:11Z" finished-at="2018-07-28T17:32:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="f()[pri:0, instance:org.tedu.mavenPro2.NewTest@2344fc66]" name="f" duration-ms="0" started-at="2018-07-28T17:32:11Z" finished-at="2018-07-28T17:32:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- org.tedu.mavenPro2.NewTest -->
+      <class name="org.tedu.mavenPro2.TestLog4j">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.tedu.mavenPro2.TestLog4j@5afa04c]" name="beforeMethod" is-config="true" duration-ms="3837" started-at="2018-07-28T17:32:34Z" finished-at="2018-07-28T17:32:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="f()[pri:0, instance:org.tedu.mavenPro2.TestLog4j@5afa04c]" name="f" duration-ms="3511" started-at="2018-07-28T17:32:38Z" finished-at="2018-07-28T17:32:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:org.tedu.mavenPro2.TestLog4j@5afa04c]" name="afterMethod" is-config="true" duration-ms="407" started-at="2018-07-28T17:32:41Z" finished-at="2018-07-28T17:32:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- org.tedu.mavenPro2.TestLog4j -->
+      <class name="org.tedu.mavenPro2.TestAdvancedSearch">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.tedu.mavenPro2.TestAdvancedSearch@458ad742]" name="beforeMethod" is-config="true" duration-ms="3845" started-at="2018-07-28T17:32:12Z" finished-at="2018-07-28T17:32:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:org.tedu.mavenPro2.TestAdvancedSearch@458ad742]" name="f" duration-ms="2971" started-at="2018-07-28T17:32:15Z" data-provider="dp" finished-at="2018-07-28T17:32:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[b]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[手机类型]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[三星]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[6000]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[请选择]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:org.tedu.mavenPro2.TestAdvancedSearch@458ad742]" name="afterMethod" is-config="true" duration-ms="390" started-at="2018-07-28T17:32:18Z" finished-at="2018-07-28T17:32:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.tedu.mavenPro2.TestAdvancedSearch@458ad742]" name="beforeMethod" is-config="true" duration-ms="3890" started-at="2018-07-28T17:32:19Z" finished-at="2018-07-28T17:32:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:org.tedu.mavenPro2.TestAdvancedSearch@458ad742]" name="f" duration-ms="3557" started-at="2018-07-28T17:32:23Z" data-provider="dp" finished-at="2018-07-28T17:32:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[n]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[手机类型]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[联想]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[100]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2000]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[精品手机]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[2008年06月]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[灰色]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:org.tedu.mavenPro2.TestAdvancedSearch@458ad742]" name="afterMethod" is-config="true" duration-ms="413" started-at="2018-07-28T17:32:26Z" finished-at="2018-07-28T17:32:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.tedu.mavenPro2.TestAdvancedSearch@458ad742]" name="beforeMethod" is-config="true" duration-ms="3932" started-at="2018-07-28T17:32:27Z" finished-at="2018-07-28T17:32:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:org.tedu.mavenPro2.TestAdvancedSearch@458ad742]" name="f" duration-ms="2871" started-at="2018-07-28T17:32:31Z" data-provider="dp" finished-at="2018-07-28T17:32:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[t]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[充值卡]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[LG]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[50]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[500]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[请选择]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:org.tedu.mavenPro2.TestAdvancedSearch@458ad742]" name="afterMethod" is-config="true" duration-ms="367" started-at="2018-07-28T17:32:33Z" finished-at="2018-07-28T17:32:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- org.tedu.mavenPro2.TestAdvancedSearch -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

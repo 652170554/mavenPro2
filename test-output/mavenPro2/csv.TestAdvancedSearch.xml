@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="csv.TestAdvancedSearch" failures="0" tests="3" time="33.118" errors="0">
+  <properties/>
+  <testcase name="f" time="3.98" classname="csv.TestAdvancedSearch"/>
+  <testcase name="f" time="5.233" classname="csv.TestAdvancedSearch"/>
+  <testcase name="f" time="3.789" classname="csv.TestAdvancedSearch"/>
+</testsuite>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="0" name="Failed suite [Surefire suite]">
+  <test name="Surefire test(failed)">
+    <classes>
+      <class name="org.tedu.mavenPro2.TestLog4j">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="f"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- org.tedu.mavenPro2.TestLog4j -->
+      <class name="ECshop.TestECshopSearch">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- ECshop.TestECshopSearch -->
+      <class name="org.tedu.mavenPro2.NewTest">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- org.tedu.mavenPro2.NewTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->
