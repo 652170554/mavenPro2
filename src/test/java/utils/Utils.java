@@ -1,4 +1,4 @@
-package utils;
+﻿package utils;
 
 import java.io.File;
 import java.text.DateFormat;
@@ -876,5 +876,6 @@ public class Utils {
 	   }
    }
    
-   public static void test22333(){}
+   public static void test1(){}
+   public static void test2(){}
 }
